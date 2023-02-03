@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+}
+#fondo{
+    width: 90%;
+    margin-left: 100px;
+    height: 85vh;
+
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;  
+    height: 90%;
+    left: 0;
+    background: #D8A8A8;
+    width: 100px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.logo1{
+
+    display: flex;
+    transition:all 0.5s ease;
+    margin: 2px 0 0 2px;
+}
+.logo1 img {
+    width: 74px;
+    height: 79px;
+    top: -3px;
+
+}
+
+.logo1 span {
+    font-style: italic;
+    font-size: 38px;   
+    vertical-align: -webkit-baseline-middle;
+    font-weight: bolder;
+    left: -12px;
+    text-shadow: 2px 1px 3px #fff;
+}
+.logo1 span{
+    font-size: 39px;
+}
+
+.logo1 {
+    color: rgba(255, 0, 92, 0.5);
+    position: relative;
+}
+
+
+#iconos {
+    color: #fff;
+    padding-left: 12px;
+
+}
+a {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    vertical-align: middle;
+    margin-top: 13px;
+    vertical-align: -webkit-baseline-middle;
+    text-shadow: 2px 2px 4px #000000;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    font-size: 22px;
+   
+}
+a:hover {
+    background: rgb(254,254, 254, 0.4 );
+    border-radius: 8px;
+    margin-left: -7px;
+    opacity: 1.0;
+    border-style: outset;
+    padding: absolute;
+}
+.logo1:hover {
+    background: none;
+    border-style: inset;
+
+}
+
+nav:hover{
+    width: 300px;
+    transition: all 0.478s ease;
+    font-size: 10px;
+    position:fixed;
+    
+}
+header {
+    background-color: #D8A8A8;
+    position:relative;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 10 px;
+    text-align: center;
+    vertical-align:-webkit-baseline-middle;
+}
+footer {
+    text-align: center;
+    margin-top: -30px;
+    border-color: rgba(11, 11, 11, 1.5);
+    background-color: #ffff;
+}
+
